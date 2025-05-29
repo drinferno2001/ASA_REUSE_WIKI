@@ -1,0 +1,9 @@
+site_name: ASA REUSE
+site_url: https://firstgambrellianempire.com/asa-wiki
+theme:
+  palette:
+    primary: blue
+    scheme: default
+  name: material
+  features:
+    - navigation.indexes
