@@ -3,6 +3,7 @@ site_url: https://firstgambrellianempire.com/asa-wiki
 nav:
   - Purpose And Initial Premise: index.md
   - Current Documentation:
+    - current_documentation/board.md
     - current_documentation/software_boot_process.md
     - current_documentation/weakspots.md
   - Logged Work: 

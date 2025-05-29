@@ -6,7 +6,7 @@
 
 While disassembling the device, I came across a series of pins (curiously hidden under a barcode) that I thought was originally a place where I could solder VGA pins. (At the time, I was thinking this model just didn't have them like the others did). 
 
-However, upon further research, I determined that it was actually a [**JTAG**](/board_layout/board_layout.png) interface (see #3), an interface standard that came out in the late 80s/early 90s to simplfy board testing. While used for board testing, the interface also had the benefit in it provided access to all of the signals on all traces on the device's motherboard.
+However, upon further research, I determined that it was actually a [**JTAG**](./board.md) interface (see #3), an interface standard that came out in the late 80s/early 90s to simplfy board testing. While used for board testing, the interface also had the benefit in it provided access to all of the signals on all traces on the device's motherboard.
 
 #### UNIDENTIFIED INTERFACES (POTENTIAL UART?)
 
