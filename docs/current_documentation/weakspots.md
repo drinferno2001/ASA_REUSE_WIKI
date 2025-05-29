@@ -12,7 +12,7 @@ However, upon further research, I determined that it was actually a [**JTAG**](/
 
 At the same time, following the quick hardware hacking introduction included [here](/hardware_hacking_references/Hardware.Hacking.Methodology-Jeremy.Brun-v1.0.pdf), I also did various voltage tests against a manner of many other pins located around the JTAG interface and main CPU (in an attempt to look for a UART interface). However, I wasn't able to find any voltage that would've indicated transmit, receive, or Vcc pins. Even on bootup, none of the other interfaces produced a fluctuating voltage that would've indicated the movement of data (logging specifically). See [here](/board_layout/board_pins.txt) for a rough notepad logging of results.
 
-I also tested the JTAG interface and tried to match it using an, admittedly, older guide found [here]("http://www.jtagtest.com/pinouts/") but I wasn't able to find a matching format. It was no surprise that I couldn't match it up as this was Cisco and, as I learned, x86 JTAG interfaces were harder to access. I would've potentially needed an expensive and specialized device but I didn't research that far into it for reasons listed below.
+I also tested the JTAG interface and tried to match it using an, admittedly, older guide found [here](http://www.jtagtest.com/pinouts/) but I wasn't able to find a matching format. It was no surprise that I couldn't match it up as this was Cisco and, as I learned, x86 JTAG interfaces were harder to access. I would've potentially needed an expensive and specialized device but I didn't research that far into it for reasons listed below.
 
 #### PUSHING IT ASIDE
 
@@ -28,8 +28,8 @@ However, curiously, they did have a barcode placed over the pinholes and ... it 
 
 While looking online initially to see if others had done something similar, I came across the following articles: 
 
-- https://www.rapid7.com/blog/post/2016/06/14/asa-hack/
-- https://www.nccgroup.com/us/research-blog/cisco-asa-series-part-one-intro-to-the-cisco-asa/
+- [Rapid7](https://www.rapid7.com/blog/post/2016/06/14/asa-hack/)
+- [NCC Group](https://www.nccgroup.com/us/research-blog/cisco-asa-series-part-one-intro-to-the-cisco-asa/)
 
 #### MODIFYING ASA FIRMWARE IMAGES FOR ROOT SHELL
 
