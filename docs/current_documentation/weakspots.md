@@ -6,11 +6,11 @@
 
 While disassembling the device, I came across a series of pins (curiously hidden under a barcode) that I thought was originally a place where I could solder VGA pins. (At the time, I was thinking this model just didn't have them like the others did). 
 
-However, upon further research, I determined that it was actually a [**JTAG**](./board.md) interface (see #3), an interface standard that came out in the late 80s/early 90s to simplfy board testing. While used for board testing, the interface also had the benefit in it provided access to all of the signals on all traces on the device's motherboard.
+However, upon further research, I determined that it was actually a [**JTAG**](./hardware/board.md) interface (see #3), an interface standard that came out in the late 80s/early 90s to simplfy board testing. While used for board testing, the interface also had the benefit in it provided access to all of the signals on all traces on the device's motherboard.
 
 #### UNIDENTIFIED INTERFACES (POTENTIAL UART?)
 
-At the same time, following the quick hardware hacking introduction included [here](/hardware_hacking_references/Hardware.Hacking.Methodology-Jeremy.Brun-v1.0.pdf), I also did various voltage tests against a manner of many other pins located around the JTAG interface and main CPU (in an attempt to look for a UART interface). However, I wasn't able to find any voltage that would've indicated transmit, receive, or Vcc pins. Even on bootup, none of the other interfaces produced a fluctuating voltage that would've indicated the movement of data (logging specifically). See [here](/board_layout/board_pins.txt) for a rough notepad logging of results.
+At the same time, following the quick hardware hacking introduction included [here](/hardware_hacking_references/Hardware.Hacking.Methodology-Jeremy.Brun-v1.0.pdf), I also did various voltage tests against a manner of many other pins located around the JTAG interface and main CPU (in an attempt to look for a UART interface). However, I wasn't able to find any voltage that would've indicated transmit, receive, or Vcc pins. Even on bootup, none of the other interfaces produced a fluctuating voltage that would've indicated the movement of data (logging specifically). See [here](./hardware/board_if_pinouts.md) for a rough notepad logging of results.
 
 I also tested the JTAG interface and tried to match it using an, admittedly, older guide found [here](http://www.jtagtest.com/pinouts/) but I wasn't able to find a matching format. It was no surprise that I couldn't match it up as this was Cisco and, as I learned, x86 JTAG interfaces were harder to access. I would've potentially needed an expensive and specialized device but I didn't research that far into it for reasons listed below.
 
