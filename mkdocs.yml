@@ -3,8 +3,12 @@ site_url: https://firstgambrellianempire.com/asa-wiki
 nav:
   - Purpose And Initial Premise: index.md
   - Current Documentation:
-    - current_documentation/board.md
-    - current_documentation/software_boot_process.md
+    - Hardware:
+        - current_documentation/hardware/board.md
+        - current_documentation/hardware/board_if_pinouts.md
+    - Software:
+        - current_documentation/software/software_boot_process.md
+        - current_documentation/software/memory_layout.md
     - current_documentation/weakspots.md
   - Logged Work: 
     - blog/index.md
