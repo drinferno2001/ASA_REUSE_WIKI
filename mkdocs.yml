@@ -2,17 +2,16 @@ site_name: ASA REUSE
 site_url: https://firstgambrellianempire.com/asa-wiki
 nav:
   - Purpose And Initial Premise: index.md
-  - Current Documentation:
-    - Attempts:     
-        - current_documentation/attempts/debugging_if_exploits.md
-        - current_documentation/attempts/bootloader_breaking_exploits.md
-        - current_documentation/attempts/reverse_engineering_rommon.md
-    - Hardware:
-        - current_documentation/hardware/board.md
-        - current_documentation/hardware/board_if_pinouts.md
-    - Software:
-        - current_documentation/software/software_boot_process.md
-        - current_documentation/software/memory_layout.md
+  - Attempts:     
+      - attempts/debugging_if_exploits.md
+      - attempts/bootloader_breaking_exploits.md
+      - attempts/reverse_engineering_rommon.md
+  - Hardware:
+      - hardware/board.md
+      - hardware/board_if_pinouts.md
+  - Software:
+      - software/software_boot_process.md
+      - software/memory_layout.md
   - Logged Work: 
     - blog/index.md
 theme:
